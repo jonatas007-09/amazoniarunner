@@ -1,0 +1,12 @@
+{
+  "name": "amazonia-run-3d",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Amazônia Run 3D - Cidade Abandonada (jogo 3D online com ilha de conversa)",
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

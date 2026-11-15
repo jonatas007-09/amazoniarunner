@@ -1,0 +1,12 @@
+# Render.com — plano gratis (WebSocket funciona)
+services:
+  - type: web
+    name: amazonia-run-3d
+    runtime: node
+    plan: free
+    buildCommand: "npm install --no-audit --no-fund"
+    startCommand: "node server.mjs"
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_VERSION
+        value: "20"
